@@ -1,4 +1,5 @@
 const hello = (name: string) => {
   return `Hello,${name}!`;
 };
-hello("peksuliini");
+const result = hello("peksuliini");
+console.log(result);
